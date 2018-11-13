@@ -21,43 +21,43 @@ header{
     max-width: 1900px;
     z-index: 9;
 }
+.menuTransparente{
+    transition: all ease-in-out 0.8s;
+    opacity: 0.7;
+}
 .menu ul {
     text-align: right;
 }
 .menu ul li{
-    display: inline;
+    display: inline-block;
     text-decoration: none;
 }
 .img-responsive{
     width: 100%;
 }
 article{
-    height: 300px;
     background: red;
     margin-top: 50px;
+    padding: 20px;
 }
-.estudios{
+.titulaciones{
     position: relative;
-    left: 20%;
-    height: 200px;
-    width: 80%;
-}
-.titulos{
-    position: relative;
-    right: 0;
-    height: 200px;
+    left:0;
     width: 80%;
 }
 .experiencia{
     position: relative;
     left: 20%;
-    height: 200px;
     width: 80%;
 }
 .conocimientos{
     position: relative;
-    right: 0;
-    height: 200px;
+    left: 0;
+    width: 80%;
+}
+.mas-info{
+    position: relative;
+    left: 20%;
     width: 80%;
 }
 
@@ -67,4 +67,3 @@ footer{
     margin-top: 50px;
     background: grey;
 }
->>>>>>> a32cb3283f3819442151be0e2b687596ac0749e4
