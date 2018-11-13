@@ -1,28 +1,70 @@
-.swipeView {
-        display: grid;
-        grid-template-columns: repeat(4, 100%);
-        will-change: transform;
-        align-content: center;
-        overflow-x: auto;
-        scroll-snap-coordinate: 0 10%;
-        scroll-snap-points-x: repeat(100%);
-        scroll-snap-type: mandatory;
-        -webkit-overflow-scrolling: touch;
+.principal{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../img/portada.jpg);
+    height: 480px;
+    background-size:cover;
 }
 
-section {
-    height: 80vh;
-    scroll-snap-align: start;
+.menu{
+    position: fixed;
+    top:0;
+    height: 60px;
+    background: red;
+    width: 100%;
+    max-width: 1900px;
+    z-index: 9;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li{
+    display: inline;
+    text-decoration: none;
+}
+.img-responsive{
+    width: 100%;
+}
+article{
+    height: 300px;
+    background: red;
+    margin-top: 50px;
+}
+.estudios{
+    position: relative;
+    left: 20%;
+    height: 200px;
+    width: 80%;
+}
+.titulos{
+    position: relative;
+    right: 0;
+    height: 200px;
+    width: 80%;
+}
+.experiencia{
+    position: relative;
+    left: 20%;
+    height: 200px;
+    width: 80%;
+}
+.conocimientos{
+    position: relative;
+    right: 0;
+    height: 200px;
+    width: 80%;
 }
 
-.green {
-    background: #ABE66F;
+footer{
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    background: grey;
 }
-
-.purple {
-    background: #4E4E94;
-}
-
-.orange {
-    background: #FD8F58;
-}
+>>>>>>> a32cb3283f3819442151be0e2b687596ac0749e4
