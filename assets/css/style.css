@@ -27,10 +27,15 @@ header{
 }
 .menu ul {
     text-align: right;
+
 }
 .menu ul li{
     display: inline-block;
     text-decoration: none;
+}
+
+article ul, article div{
+    display: none;
 }
 .img-responsive{
     width: 100%;
