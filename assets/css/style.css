@@ -34,9 +34,15 @@ header{
     text-decoration: none;
 }
 
-article ul, article div{
+article ul, article .conocimientos-elementos{
     display: none;
 }
+.logos-responsive{
+    height: 50px;
+    width:50px;
+    float: left;
+}
+
 .img-responsive{
     width: 100%;
 }
